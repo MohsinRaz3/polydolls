@@ -1,7 +1,9 @@
 import Navbar from '@/components/Navbar';
 import Link from 'next/link';
-import { silkScreen } from './page';
+import { Silkscreen } from 'next/font/google'
+import Image from 'next/image';
 
+const silkScreen = Silkscreen({ weight: "400", subsets: ['latin'] })
 
 
 export default function Home() {
@@ -12,7 +14,7 @@ export default function Home() {
                 <div className='w-full my-10 flex flex-col items-center '>
 
                     <div className='min-h-100 max-w-96 my-12 md:my-28 flex flex-col items-center '>
-                        <Image src={"./logo.png"}></Image>
+                        <Image src={"./logo.png"} alt="logo" />
                         {/* <h1 className={`text-white ${silkScreen.className} text-3xl md:text-[70px] lg:md:text-[86px]  textshadow`}>Polydolls LOGO</h1> */}
                         <h3 className='text-white text-lg w-9/12 md:w-11/12 text-center mx-auto my-5 md:my-10'>20,000 unique crypto investors on the blockchain with commercial rights.</h3>
                         <button className='text-white font-semibold  border-black w-9/12 md:w-[200px]  bg-red-200 h-12 rounded-md bg-gradient-to-br from-purple-600 via-red-500 to-transparent custom-gradient'> View on OpenSea</button>

@@ -3,7 +3,7 @@ import { Silkscreen } from 'next/font/google'
 import Link from 'next/link'
 import Image from 'next/image'
 import Button from '@/components/Button'
-const silkScreen = Silkscreen({ weight: "400", subsets: ['latin'], })
+const silkScreen = Silkscreen({ weight: "400", subsets: ['latin'] })
 
 
 export default function Home() {
@@ -14,9 +14,9 @@ export default function Home() {
         <div className='w-full my-10 flex flex-col items-center '>
 
           <div className='min-h-100 w-11/12 my-12 md:my-28 flex flex-col items-center '>
-            <Image src={"/logo.png"} height={1000} width={800} className='md:w-9/12 lg:w-6/12 md:mt-[3rem]' alt='polydolls logo Nfts'></Image>
+            <Image src={"/logo2.png"} height={1000} width={800} className='md:w-9/12 lg:w-6/12 md:mt-[3rem]' alt='polydolls logo Nfts'></Image>
             {/* <h1 className={`text-white ${silkScreen.className} text-3xl md:text-[70px] lg:md:text-[86px]  textshadow`}>Polydolls LOGO</h1> */}
-            <h3 className='text-white text-lg md:text-2xl md:font-medium w-11/12 text-center mx-auto my-5 md:my-10'>30,000 Polygon citizens, eager for their ancestral nest. Mint now to pave their voyage home and earn commercial rights.</h3>
+            {/* <h3 className='text-white text-lg md:text-2xl md:font-medium w-11/12 text-center mx-auto my-5 md:my-10'>30,000 Polygon citizens, eager for their ancestral nest. Mint now to pave their voyage home and earn commercial rights.</h3> */}
             <Button>Mint Here</Button >
           </div>
 
