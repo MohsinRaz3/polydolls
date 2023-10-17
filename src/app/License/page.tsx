@@ -11,11 +11,11 @@ const License = () => {
 
             <div className={`  px-5 md:px-24  text-[10px] md:text-base`}>
 
-                <p className='text-[8px] md:text-[16px] italic text-center' > *This license agreement is modeled on the Yuga Labs license for CryptoPunks issued in 2022. </p><br />
+                <p className='text-[8px] md:text-[16px] italic text-center transition' > *This license agreement is modeled on the Yuga Labs license for CryptoPunks issued in 2022. </p><br />
 
                 <p className='font-semibold text-center underline my-2'>POLYDOLLS TERMS</p>
 
-                <p className='my-1 '>   Polydolls is a collection of unique digital collectible characters represented by non-fungible tokens (such tokens,<span className='font-semibold'>"Polydolls NFTs"</span> ) minted by a smart contract deployed to the Polygon blockchain (the <span className='font-semibold'>"Polydolls Smart Contract"</span>). The Polydolls Smart Contract associates each Polydolls NFT with a piece of digital art displaying one of the Polydolls characters (<span className='font-semibold'>"Polydolls Art"</span>). </p> <br />
+                <p className='my-1 animate-fade-up animate-once'>   Polydolls is a collection of unique digital collectible characters represented by non-fungible tokens (such tokens,<span className='font-semibold'>"Polydolls NFTs"</span> ) minted by a smart contract deployed to the Polygon blockchain (the <span className='font-semibold'>"Polydolls Smart Contract"</span>). The Polydolls Smart Contract associates each Polydolls NFT with a piece of digital art displaying one of the Polydolls characters (<span className='font-semibold'>"Polydolls Art"</span>). </p> <br />
 
                 These terms (<span className='font-semibold'>"Terms"</span>) are a legally binding agreement by and between ICHIMANstudios (<span className='font-semibold'>"ICHIMANstudios,"</span> <span className='font-semibold'>"we"</span> or <span className='font-semibold'>"us"</span>), and any owner of a Polydolls NFT (<span className='font-semibold'>"you"</span> or <span className='font-semibold'>"Owner"</span>) governing the parties' rights and obligations with respect to Polydolls NFTs and Polydolls Art. <br />
 
@@ -75,19 +75,7 @@ const License = () => {
 
                 <p className='mt-2 font-normal'>    (c)  <span className='underline'>Published Polydolls Works.</span> If, during the License Term, you create and make available to the public a work using Your Polydolls Art (a<span className='font-semibold'>"Published Polydolls Work"</span> ), you may, except as set forth in Section 4(b)(ii), continue to use and exploit that Published Polydolls Work in accordance with these Terms after the License Term; provided, however, that: (i) you will be responsible for any obligations or liabilities arising from your continued use of the Published Polydolls Work after the License Term; and (ii) this privilege does not allow you to use the Polydolls Art to create any new works or materials after the License Term. Thus, for example:  </p> <br />
 
-                <p className='mt-2 font-normal'>
-
-                    <ul>
-                        <li>
-                            <span className='font-bold'> ◦</span> A digital series featuring Your Polydolls Art that was released during the License Term may continue to run after the License Term, but any creation or distribution of any new episodes featuring the Polydolls Art would require a license from the new Owner.
-
-                        </li> <br />
-                        <li>
-                            ◦ After the License Term, you may sell off existing (at the time of transfer) inventories of merchandise featuring Your Polydolls Art that were created and offered for sale during the License Term, but the creation or distribution of any new merchandise or inventory featuring the Polydolls Art would require a license from the new Owner.
-
-                        </li>
-                    </ul>
-                </p> <br />
+                <br />
                 <p className='my-2 font-semibold'>    5. Owner's Representations and Warranties. </p>
 
                 <p className='mt-2 font-normal'>     Owner represents and warrants that Owner: </p>
