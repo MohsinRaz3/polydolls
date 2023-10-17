@@ -3,6 +3,7 @@ import { Silkscreen } from 'next/font/google'
 import Link from 'next/link'
 import Image from 'next/image'
 import Button from '@/components/Button'
+import { Twitter } from 'lucide-react'
 const silkScreen = Silkscreen({ weight: "400", subsets: ['latin'] })
 
 
@@ -14,34 +15,34 @@ export default function Home() {
         <div className='w-full my-10 flex flex-col items-center '>
 
           <div className='min-h-100 w-11/12 my-12 md:my-28 flex flex-col items-center '>
-            <Image src={"/logo2.png"} height={1000} width={800} className='md:w-9/12 lg:w-6/12 md:mt-[3rem]' alt='polydolls logo Nfts'></Image>
+            <Image src={"/logo2.png"} height={700} width={500} className='md:w-9/12 lg:w-6/12 md:mt-[3rem]' alt='polydolls logo Nfts'></Image>
             {/* <h1 className={`text-white ${silkScreen.className} text-3xl md:text-[70px] lg:md:text-[86px]  textshadow`}>Polydolls LOGO</h1> */}
             {/* <h3 className='text-white text-lg md:text-2xl md:font-medium w-11/12 text-center mx-auto my-5 md:my-10'>30,000 Polygon citizens, eager for their ancestral nest. Mint now to pave their voyage home and earn commercial rights.</h3> */}
-            <Button>Mint Here</Button >
+            <Button >Mint Here</Button >
           </div>
 
-          <div className='h-72 lg:h-[500px]  w-full bg-pink-500 bg-[url(/Banner1.webp)] bg-no-repeat bg-cover bg-center'>
+          <div className='h-72 lg:h-[500px]  w-full  bg-[url(/Banner1.png)] bg-no-repeat bg-cover bg-center'>
           </div>
 
           <div className=' max-w-96 my-32 md:my-28 flex flex-col items-center'>
             <h1 className={`text-white ${silkScreen.className} text-center md:leading-[70px] text-3xl md:text-[70px] lg:md:text-[86px]   textshadow`}>Commercial Rights</h1>
-            <h3 className='text-white text-lg md:text-2xl md:font-medium w-11/12 md:w-10/12 text-center mx-auto my-5 md:my-10'>Polydolls holders are granted the same commercial rights as Yuga Labs provided for CryptoPunks. The Polydolls license is <Link className='text-cyan-500' href={"#"}>here</Link></h3>
+            <h3 className='text-white text-lg md:text-2xl md:font-medium w-11/12 md:w-10/12 text-center mx-auto my-5 md:my-10'>Polydolls holders are granted the same commercial rights as Yuga Labs provided for CryptoPunks. The Polydolls license is <Link className='text-cyan-500' target='_blank' href={"/License"}>here</Link></h3>
           </div>
 
-          <div className='h-72 lg:h-[500px]  w-full bg-pink-500 bg-[url(/Banner1.webp)] bg-no-repeat bg-cover bg-center'>
+          <div className='h-72 lg:h-[500px]  w-full  bg-[url(/Banner2.png)] bg-no-repeat bg-cover bg-center'>
           </div>
 
           <div className=' w-full pt-12 md:my-28 flex flex-col items-center'>
             <h1 className={`text-white ${silkScreen.className} text-3xl md:text-[70px] lg:md:text-[86px]   textshadow`}>FAQ</h1>
             <h3 className=' w-11/12 mx-auto text-lg md:text-2xl md:font-medium text-center font-semibold  text-white my-10'>FAQ and Mint info can be found in <Link className='text-[#00E0FF]' href={"#"}>Polydolls Mint 101</Link> </h3>
             {/* <Link href={"#"} className='text-white font-semibold  border-black w-9/12 md:w-[200px]  bg-red-200 h-12 rounded-md bg-gradient-to-br from-purple-600 via-red-500 to-transparent custom-gradient text-center grid place-items-center'>Mint Here</Link> */}
-            <Button>View on OpenSea</Button >
+            <Button >View on OpenSea</Button >
 
           </div>
 
-          <Link href={"#"} className='h-10 w-10 border-2 rounded-full'></Link>
+          <Link href={"#"} className='h-10 w-10 border-2 rounded-full'> <div className='pt-1.5 px-1.5'><Twitter color="#ffffff" /></div></Link>
         </div>
-        <footer className='text-white text-[15px]  md:text-lg md:font-medium mb-20 text-center w-9/12 mx-auto'>Created by <Link href={"#"} className='text-[#00E0FF]'>HiFo Labs</Link>. All rights reserved.</footer>
+        <footer className='text-white text-[15px]  md:text-lg md:font-medium mb-20 text-center w-9/12 mx-auto'>Created by <Link href={"#"} className='text-[#00E0FF]'>ICHIMANstudios</Link>. All rights reserved.</footer>
       </div>
 
     </main>
