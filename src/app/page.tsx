@@ -64,18 +64,18 @@ export default function Home() {
             <div className='h-72 lg:h-[500px]  w-full  bg-[url(/Banner2.png)] bg-no-repeat bg-cover bg-center'>
             </div>
 
-            <div className=' w-full pt-12 md:my-28 flex flex-col items-center'>
+            <div className=' w-full pt-12 md:my-20 lg:my-28 flex flex-col items-center'>
               <h1 className={`text-white ${silkScreen.className} text-3xl md:text-[70px] lg:md:text-[86px]   textshadow`}>FAQ</h1>
               <h3 className=' w-11/12 mx-auto text-lg md:text-2xl md:font-medium text-center font-semibold  text-white my-10'> <motion.h1
                 className=" tracking-[-0.02em] drop-shadow-sm md:leading-[5rem]"
                 variants={FADE_DOWN_ANIMATION_VARIANTS}
-              >FAQ and Mint info can be found in <Link className='text-[#00E0FF]' href={"#"}>Polydolls Mint 101</Link></motion.h1> </h3>
+              >FAQ and Mint info can be found in <Link className='text-[#00E0FF] underline' href={"#"}>Polydolls Mint 101</Link></motion.h1> </h3>
               {/* <Link href={"#"} className='text-white font-semibold  border-black w-9/12 md:w-[200px]  bg-red-200 h-12 rounded-md bg-gradient-to-br from-purple-600 via-red-500 to-transparent custom-gradient text-center grid place-items-center'>Mint Here</Link> */}
-              <Link className='mb-2 w-9/12 mm:w-6/12 md:w-[200px] m-auto' href={"https://opensea.io/collection/polydolls"} target='_blank'> <button className=' text-white font-semibold  border-black w-full py-2 md:py-3 lg:py-4 full rounded-md bg-gradient-to-br from-amber-700 via-amber-500 to-transparent custom-gradient'> Mint Here</button></Link>
+              <Link className='mb-2 w-9/12 mm:w-6/12 md:w-[200px] m-auto' href={"https://opensea.io/collection/polydolls"} target='_blank'> <button className=' text-white font-semibold  border-black w-full py-2 md:py-3 lg:py-4 full rounded-md bg-gradient-to-br from-amber-700 via-amber-500 to-transparent custom-gradient'> View On Opensea</button></Link>
 
             </div>
 
-            <Link href={"#"} className='h-10 w-10 border-2 rounded-full'> <div className='pt-1.5 px-1.5'><Twitter color="#ffffff" /></div></Link>
+            <Link href={"#"} className='h-10 w-10 my-5 md:my-0  border-2 rounded-full'> <div className='pt-1.5 px-1.5'><Twitter color="#ffffff" /></div></Link>
           </div>
           <footer className='text-white text-[15px]  md:text-lg md:font-medium mb-20 text-center w-9/12 mx-auto'>
             <motion.h1
