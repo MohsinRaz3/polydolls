@@ -42,7 +42,7 @@ export default function Home() {
               >  <Image src={"/logo2.png"} height={1000} width={500} className=' ' alt='polydolls logo Nfts'></Image> </motion.h1>
               </div>              {/* <h1 className={`text-white ${silkScreen.className} text-3xl md:text-[70px] lg:md:text-[86px]  textshadow`}>Polydolls LOGO</h1> */}
               {/* <h3 className='text-white text-lg md:text-2xl md:font-medium w-11/12 text-center mx-auto my-5 md:my-10'>30,000 Polygon citizens, eager for their ancestral nest. Mint now to pave their voyage home and earn commercial rights.</h3> */}
-              <Link href={"https://mint.polydolls.io"} target='_blank'><button className=' text-white my-5  md:my-14 md:mt-13 lg:mt-12 md:mb-28 font-semibold  border-black w-9/12 mm:w-6/12 md:w-[200px] py-2 md:py-3 lg:py-4 full rounded-md bg-gradient-to-br from-amber-700 via-amber-500 to-transparent custom-gradient'> Mint Now</button></Link>
+              <Link className='w-9/12 mm:w-6/12 md:w-[200px] m-auto' href={"https://mint.polydolls.io"} target='_blank'><button className='w-full  text-white my-5  md:my-14 md:mt-13 lg:mt-12 md:mb-28 font-semibold  border-black  py-2 md:py-3 lg:py-4 full rounded-md bg-gradient-to-br from-amber-700 via-amber-500 to-transparent custom-gradient'> Mint Now</button></Link>
             </div>
 
             <div className='h-72 lg:h-[500px]  w-full  bg-[url(/Banner1.png)] bg-no-repeat bg-cover bg-center'>
@@ -71,7 +71,7 @@ export default function Home() {
                 variants={FADE_DOWN_ANIMATION_VARIANTS}
               >FAQ and Mint info can be found in <Link className='text-[#00E0FF]' href={"#"}>Polydolls Mint 101</Link></motion.h1> </h3>
               {/* <Link href={"#"} className='text-white font-semibold  border-black w-9/12 md:w-[200px]  bg-red-200 h-12 rounded-md bg-gradient-to-br from-purple-600 via-red-500 to-transparent custom-gradient text-center grid place-items-center'>Mint Here</Link> */}
-              <Link href={"https://opensea.io/collection/polydolls"} target='_blank'> <button className=' text-white font-semibold  border-black w-9/12 mm:w-6/12 md:w-[200px] py-2 md:py-3 lg:py-4 full rounded-md bg-gradient-to-br from-amber-700 via-amber-500 to-transparent custom-gradient'> Mint Here</button></Link>
+              <Link className='mb-2 w-9/12 mm:w-6/12 md:w-[200px] m-auto' href={"https://opensea.io/collection/polydolls"} target='_blank'> <button className=' text-white font-semibold  border-black w-full py-2 md:py-3 lg:py-4 full rounded-md bg-gradient-to-br from-amber-700 via-amber-500 to-transparent custom-gradient'> Mint Here</button></Link>
 
             </div>
 
