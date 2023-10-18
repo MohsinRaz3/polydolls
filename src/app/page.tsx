@@ -34,11 +34,11 @@ export default function Home() {
 
       <main>
         <Navbar />
-        <div className=' flex flex-col justify-center items-center bg-[url("https://res.cloudinary.com/dj23jud85/image/upload/v1697451403/bg_sfjmts.webp")] w-full h-full bg-no-repeat bg-cover md:bg-top bg-center bg-fixed'>
+        <div className=' flex flex-col justify-center items-center bg-[url("https://res.cloudinary.com/dj23jud85/image/upload/v1697451403/bg_sfjmts.webp")] md:bg-[url("https://res.cloudinary.com/dj23jud85/image/upload/v1697451403/bg_sfjmts.webp")] w-full h-full bg-no-repeat bg-cover md:bg-top bg-right bg-fixed'>
           <div className='w-full flex flex-col items-center '>
 
             <div className='min-h-100 w-12/12 mb-10 my-12 md:my-10  flex flex-col items-center '>
-              <div className='w-[12/12] h-full md:pl-12 sm:mt-[-3rem] ml:mt-[-3rem] md:mt-[-2rem] lg:mt-[-3.2rem] xl:mt-[-1rem] '>   <motion.h1
+              <div className='w-[12/12] h-full md:pl-12 sm:mt-[-3rem] ml:mt-[-4rem] md:mt-[-2rem] lg:mt-[-3.2rem] xl:mt-[-1rem] '>   <motion.h1
                 className=" tracking-[-0.02em] drop-shadow-sm md:leading-[5rem]"
                 variants={FADE_DOWN_ANIMATION_VARIANTS}
               >  <Image src={"/logo2.png"} height={1000} width={500} className=' ' alt='polydolls logo Nfts'></Image> </motion.h1>
