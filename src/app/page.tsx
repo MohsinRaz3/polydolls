@@ -34,14 +34,14 @@ export default function Home() {
 
       <main>
         <Navbar />
-        <div className=' flex flex-col justify-center items-center bg-[url("https://res.cloudinary.com/dj23jud85/image/upload/v1697451403/bg_sfjmts.webp")] md:bg-[url("https://res.cloudinary.com/dj23jud85/image/upload/v1697451403/bg_sfjmts.webp")] w-full h-full bg-no-repeat bg-cover md:bg-top bg-right bg-fixed'>
+        <div className=' flex flex-col justify-center items-center bg-[url("https://res.cloudinary.com/dj23jud85/image/upload/v1697451403/bg_sfjmts.webp")]  md:bg-[url("https://res.cloudinary.com/dj23jud85/image/upload/v1697451403/bg_sfjmts.webp")] w-full h-full bg-no-repeat bg-cover md:bg-top bg-top-center  bg-fixed'>
           <div className='w-full flex flex-col items-center '>
 
             <div className='min-h-100 w-12/12 mb-10 my-12 md:my-10  flex flex-col items-center '>
               <div className='w-[12/12] h-full md:pl-12 sm:mt-[-3rem] ml:mt-[-4rem] md:mt-[-2rem] lg:mt-[-3.2rem] xl:mt-[-1rem] '>   <motion.h1
                 className=" tracking-[-0.02em] drop-shadow-sm md:leading-[5rem]"
                 variants={FADE_DOWN_ANIMATION_VARIANTS}
-              >  <Image src={"/logo2.png"} height={1000} width={500} className=' ' alt='polydolls logo Nfts'></Image> </motion.h1>
+              >  <Image src={"/logo2.png"} height={1000} width={500} className='mt-10 md:mt-0' alt='polydolls logo Nfts'></Image> </motion.h1>
               </div>              {/* <h1 className={`text-white ${silkScreen.className} text-3xl md:text-[70px] lg:md:text-[86px]  textshadow`}>Polydolls LOGO</h1> */}
               {/* <h3 className='text-white text-lg md:text-2xl md:font-medium w-11/12 text-center mx-auto my-5 md:my-10'>30,000 Polygon citizens, eager for their ancestral nest. Mint now to pave their voyage home and earn commercial rights.</h3> */}
               <Link className='w-9/12 mm:w-6/12 md:w-[200px] m-auto  ' href={"https://mint.polydolls.io"} target='_blank'><button className='w-full  bg-[#312040] text-white my-5  md:my-14 md:mt-13 lg:mt-[120px] md:mb-28 font-semibold  border-black  py-2 md:py-3 lg:py-4 full rounded-md  custom-gradient'> Mint Now</button></Link>
