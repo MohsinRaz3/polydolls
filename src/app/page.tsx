@@ -82,7 +82,7 @@ export default function Home() {
             <motion.h1
               className=" tracking-[-0.02em] drop-shadow-sm md:leading-[5rem]"
               variants={FADE_DOWN_ANIMATION_VARIANTS}
-            >Created by <Link href={"#"} target='_blank' className='text-[#00E0FF]'>ICHIMANstudios</Link>. All rights reserved.</motion.h1></footer>
+            >Created by <Link href={"https://opensea.io/ICHIMANstudios"} target='_blank' className='text-[#00E0FF]'>ICHIMANstudios</Link>. All rights reserved.</motion.h1></footer>
         </div>
 
       </main>
