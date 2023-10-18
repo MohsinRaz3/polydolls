@@ -7,21 +7,10 @@
 }
 
 .custom-gradient {
-  background: rgb(105, 14, 22);
-  background: linear-gradient(
-    117deg,
-    rgba(105, 14, 22, 0.9920343137254902) 17%,
-    rgba(136, 18, 28, 0.9920343137254902) 48%,
-    rgba(212, 50, 50, 0.9640231092436975) 76%
-  );
-}
+  background: rgb(185,167,200);
+  background: linear-gradient(65deg, rgba(185,167,200,1) 0%, rgba(49,32,64,1) 48%, rgba(34,22,45,1) 100%); }
 
 .custom-gradient:hover {
-  background: linear-gradient(
-    117deg,
-    rgba(212, 50, 50, 0.9640231092436975) 17%,
-    rgba(136, 18, 28, 0.9920343137254902) 48%,
-    rgba(105, 14, 22, 0.9920343137254902) 76%
-  );
-  /* Adjust the gradient colors for the hover effect */
+  background: rgb(185,167,200);
+background: linear-gradient(240deg, rgba(185,167,200,1) 0%, rgba(49,32,64,1) 48%, rgba(34,22,45,1) 100%); 
 }
