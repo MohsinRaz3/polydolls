@@ -3,7 +3,7 @@ import React from 'react'
 
 const ImageGrid = ({ cardList }: any) => {
     return (
-        <div className='bg-[rgba(24,8,8,0.88)] w-full'>
+        <div className='bg-[rgba(91,40,213,0.68)] w-full'>
             <div className=' mx-auto py-8 px-4'>
                 <div className='grid place-items-center  gap-2 md:-inset-0 grid-cols-2 md:grid-cols-4 lg:grid-cols-5'>
                     {
