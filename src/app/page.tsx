@@ -34,17 +34,17 @@ export default function Home() {
 
       <main>
         <Navbar />
-        <div className=' flex flex-col justify-center items-center bg-[url("https://res.cloudinary.com/dj23jud85/image/upload/v1697451403/bg_sfjmts.webp")]  md:bg-[url("https://res.cloudinary.com/dj23jud85/image/upload/v1697451403/bg_sfjmts.webp")] w-full h-full bg-no-repeat bg-cover md:bg-top bg-top-center  bg-fixed'>
+        <div className=' flex flex-col justify-center items-center bg-[url("https://res.cloudinary.com/dbptepnu0/image/upload/v1697910262/sgdsgdf_lcik7x.png")]  md:bg-[url("https://res.cloudinary.com/dbptepnu0/image/upload/v1697910262/sgdsgdf_lcik7x.png")] w-full h-full bg-no-repeat bg-cover md:bg-top bg-center  bg-fixed'>
           <div className='w-full flex flex-col items-center '>
 
-            <div className='min-h-100 w-12/12 mb-10 my-12 md:my-10  flex flex-col items-center '>
-              <div className='w-[12/12] h-full md:pl-12 sm:mt-[-3rem] ml:mt-[-4rem] md:mt-[-2rem] lg:mt-[-3.2rem] xl:mt-[-1rem] '>   <motion.h1
+            <div className='min-h-100 w-12/12 mb-10 my-12 md:my-10 md:mr-14 flex flex-col items-center '>
+              <div className='w-[12/12] h-full md:pl-12 sm:mt-[-3rem] ml:mt-[-4rem] md:mt-[-2rem] lg:mt-[-0.2rem] xl:mt-[-1rem] '>   <motion.h1
                 className=" tracking-[-0.02em] drop-shadow-sm md:leading-[5rem]"
                 variants={FADE_DOWN_ANIMATION_VARIANTS}
-              >  <Image src={"/logo2.png"} height={1000} width={500} className='mt-10 md:mt-0' alt='polydolls logo Nfts'></Image> </motion.h1>
+              >  <Image src={"/logo.png"} height={1000} width={500} className='mt-36 md:mt-20' alt='polydolls logo Nfts'></Image> </motion.h1>
               </div>              {/* <h1 className={`text-white ${silkScreen.className} text-3xl md:text-[70px] lg:md:text-[86px]  textshadow`}>Polydolls LOGO</h1> */}
               {/* <h3 className='text-white text-lg md:text-2xl md:font-medium w-11/12 text-center mx-auto my-5 md:my-10'>30,000 Polygon citizens, eager for their ancestral nest. Mint now to pave their voyage home and earn commercial rights.</h3> */}
-              <Link className='w-9/12 mm:w-6/12 md:w-[200px] m-auto  ' href={"https://mint.polydolls.io"} target='_blank'><button className='w-full  bg-[#312040] text-white my-5  md:my-14 md:mt-13 lg:mt-[120px] md:mb-28 font-semibold  border-black  py-2 md:py-3 lg:py-4 full rounded-md  custom-gradient'> Mint Now</button></Link>
+              <Link className='w-9/12 mm:w-6/12 md:w-[200px] m-auto  ' href={"https://mint.polydolls.com"} target='_blank'><button className='w-full  bg-[#312040] text-white my-12 md:ml-6  md:my-12 md:mt-13 lg:mt-[30px] md:mb-28 font-semibold  border-black  py-2 md:py-3 lg:py-4 full rounded-md  custom-gradient'> Mint Now</button></Link>
             </div>
 
             {/* <div className='h-72 lg:h-[500px]  w-full  bg-[url(/Banner1.png)] bg-no-repeat bg-cover bg-center'></div> */}
@@ -76,7 +76,7 @@ export default function Home() {
 
             </div>
 
-            <Link href={"#"} className='h-10 w-10 my-5 md:my-0  border-2 rounded-full'> <div className='pt-1.5 px-1.5'><Twitter color="#ffffff" /></div></Link>
+            <Link href={"https://twitter.com/polydolls"} className='h-10 w-10 my-5 md:my-0  border-2 rounded-full'> <div className='pt-1.5 px-1.5'><Twitter color="#ffffff" /></div></Link>
           </div>
           <footer className='text-white text-[15px]  md:text-lg md:font-medium mb-20 text-center w-9/12 mx-auto'>
             <motion.h1
