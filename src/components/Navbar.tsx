@@ -23,10 +23,10 @@ const Navbar = () => {
             }}
         >
             <div className='bg-[#FAF5EF]  mx-auto flex w-full items-center justify-center md:h-12 p-3 md:p-0'>
-                <h2 className={`font-semibold text-black text-lg md:text-xl lg:text-2xl ${silkScreen.className}`}><motion.h1
+                <div className={`font-semibold text-black text-lg md:text-xl lg:text-2xl ${silkScreen.className}`}><motion.h1
                     className=" tracking-[-0.02em] drop-shadow-sm md:leading-[5rem]"
                     variants={FADE_DOWN_ANIMATION_VARIANTS}
-                >Polydolls </motion.h1></h2>
+                >Polydolls </motion.h1></div>
             </div >
         </motion.div>
     )
