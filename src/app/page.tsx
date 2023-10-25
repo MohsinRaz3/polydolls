@@ -35,7 +35,7 @@ export default function Home() {
 
       <main>
         <Navbar />
-        <div className=' flex flex-col justify-center items-center bg-[url("https://res.cloudinary.com/dbptepnu0/image/upload/v1697910262/sgdsgdf_lcik7x.png")]  md:bg-[url("https://res.cloudinary.com/dbptepnu0/image/upload/v1697910262/sgdsgdf_lcik7x.png")] w-full h-full bg-no-repeat bg-cover md:bg-top bg-center  bg-fixed'>
+        <div className=' flex flex-col justify-center items-center bg-[url("/bg.png")]  md:bg-[url("/bg.png")] w-full h-full bg-no-repeat bg-cover md:bg-top bg-center  bg-fixed'>
           <div className='w-full flex flex-col items-center '>
 
             <div className='min-h-100 w-12/12 mb-4 mt-12 md:my-10 md:mr-14 flex flex-col items-center '>
