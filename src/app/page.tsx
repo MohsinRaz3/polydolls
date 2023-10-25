@@ -81,10 +81,7 @@ export default function Home() {
             <Link href={"https://twitter.com/polydolls"} className='h-10 w-10 my-5 md:my-0  border-2 rounded-full'> <div className='pt-1.5 px-1.5'><Twitter color="#ffffff" /></div></Link>
           </div>
           <footer className='text-white text-[15px]  md:text-lg md:font-medium mb-20 text-center w-9/12 mx-auto'>
-            <motion.h1
-              className=" tracking-[-0.02em] drop-shadow-sm md:leading-[5rem]"
-              variants={FADE_DOWN_ANIMATION_VARIANTS}
-            >Created by <Link href={"https://opensea.io/ICHIMANstudios"} target='_blank' className='text-[#00E0FF]'>ICHIMANstudios</Link>. All rights reserved.</motion.h1></footer>
+            Created by <Link href={"https://opensea.io/ICHIMANstudios"} target='_blank' className='text-[#00E0FF]'>ICHIMANstudios</Link>. All rights reserved.</footer>
         </div>
 
       </main>
