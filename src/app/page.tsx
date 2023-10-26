@@ -33,7 +33,7 @@ export default function Home() {
       }}
     >
 
-      <main >
+      <main className=' bg-[url("/bg.png")] bg-no-repeat bg-center  w-full h-full  bg-fixed' >
         <Navbar />
         <div className=' flex flex-col justify-center items-center  md:bg-[url("/bg.png")] w-full h-full bg-no-repeat bg-cover md:bg-top bg-center  bg-fixed'>
           <div className='w-full flex flex-col items-center '>
