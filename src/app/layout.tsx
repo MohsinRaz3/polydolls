@@ -17,7 +17,7 @@ export default function RootLayout({
   return (
     <html lang="en">
 
-      <body className={`${inter.className} `} >{children}</body>
+      <body className={`${inter.className} bg-gradient-to-tr from-[#0e0e20] to-[#0e0e20]`} >{children}</body>
     </html>
   )
 }
