@@ -7,7 +7,7 @@ import React from 'react'
 
 const License = () => {
     return (
-        <div className='mx-10 md:mx-36'>
+        <div className='bg-gradient-to-tr from-[#0e0e20] to-[#0e0e20] text-white mx-10 md:mx-36'>
 
             <div className={`  px-5 md:px-24  text-[10px] md:text-base`}>
 
