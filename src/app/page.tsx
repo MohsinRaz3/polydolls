@@ -78,8 +78,10 @@ export default function Home() {
                 variants={FADE_DOWN_ANIMATION_VARIANTS}
               >FIND FREQUENTLY ASKED QUESTIONS AND DETAILED MINTING GUIDLINES <Link className='text-cyan-500' target='_blank' href={"/"}>HERE.</Link></motion.h1> </div> */}
               {/* <Link href={"#"} className='text-white font-semibold  border-black w-9/12 md:w-[200px]  bg-red-200 h-12 rounded-md bg-gradient-to-br from-purple-600 via-red-500 to-transparent custom-gradient text-center grid place-items-center'>Mint Here</Link> */}
-              <Image src={"/ufaqb.png"} height={1080} width={1920} className='md:hidden  mt-0 -mb-24  md:mb-0 md:mt-0 md:w-[1920px]' alt='polydolls logo Nfts'></Image>
-              <Image src={"/ufaqa.png"} height={1080} width={1920} className='invisible md:visible sm:mt-2 md:w-[1920px]' alt='polydolls logo Nfts'></Image>
+              <Link target='_blank' href={"/License"}>
+                <Image src={"/ufaqb.png"} height={1080} width={1920} className='md:hidden  mt-0 -mb-24  md:mb-0 md:mt-0 md:w-[1920px]' alt='polydolls logo Nfts'></Image>
+                <Image src={"/ufaqa.png"} height={1080} width={1920} className='invisible md:visible sm:mt-2 md:w-[1920px]' alt='polydolls logo Nfts'></Image>
+              </Link>
 
               <Link className='mb-2 w-9/12 mm:w-6/12 md:w-[200px] m-auto' href={"https://opensea.io/collection/polydolls"} target='_blank'> <button className=' text-white font-semibold  border-black w-full py-2 md:py-3 lg:py-4 full rounded-md bg-gradient-to-br from-amber-700 via-amber-500 to-transparent custom-gradient'> View On Opensea</button></Link>
 
