@@ -9,6 +9,7 @@ import ImageGrid from '@/components/ImageGrid'
 import { cardList, cardList2 } from '@/components/data'
 import localFont from "next/font/local"
 
+const poppinsMed = localFont({ src: "../../fonts/Poppins-Medium.ttf" })
 const humourFont = localFont({ src: "../../fonts/Humour-Normal.ttf" })
 const silkScreen = Silkscreen({ weight: "400", subsets: ['latin'] })
 
@@ -64,8 +65,8 @@ export default function Home() {
                   variants={FADE_DOWN_ANIMATIsON_VARIANTS}
                 ><div > <p>AS A POLYDOLLS HOLDER,</p> <p>YOU'RE GRANTED A BROAD, SUBLICENSABLE LICENSE TO US AND EXPLOIT YOUR </p> <p> POLYDOLLS ART FOR BOTH COMMERCIAL AND NON-COMMERCIAL PURPOSES, ACROSS ALL MEDIA.</p> </div> <br /> <p> THE POLYDOLLS LICENSE IS <Link className='text-cyan-500' target='_blank' href={"/License"}>HERE</Link> </p> </motion.h1></div> */}
               <Link target='_blank' href={"/License"}>
-                <Image src={"/urightsb.png"} height={1080} width={1920} className='md:hidden px-2 md:w-[1920px]' alt='polydolls logo Nfts'></Image>
-                <Image src={"/urightsa.png"} height={1080} width={1920} className='invisible md:visible sm:-mb-6 sm:mt-2 mt-2 md:mb-24 md:w-[1920px]' alt='polydolls logo Nfts'></Image>
+                <Image src={"/uurightsb.png"} height={1080} width={1920} className='md:hidden px-2 md:w-[1920px]' alt='polydolls logo Nfts'></Image>
+                <Image src={"/uurightsaa.png"} height={1080} width={1920} className='invisible md:visible sm:-mb-6 sm:mt-2 mt-2 md:mb-24 md:w-[1920px]' alt='polydolls logo Nfts'></Image>
               </Link>
             </div>
             {/* <div className='h-72 lg:h-[500px]  w-full  bg-[url(/Banner2.png)] bg-no-repeat bg-cover bg-center'> </div> */}
@@ -79,8 +80,8 @@ export default function Home() {
               >FIND FREQUENTLY ASKED QUESTIONS AND DETAILED MINTING GUIDLINES <Link className='text-cyan-500' target='_blank' href={"/"}>HERE.</Link></motion.h1> </div> */}
               {/* <Link href={"#"} className='text-white font-semibold  border-black w-9/12 md:w-[200px]  bg-red-200 h-12 rounded-md bg-gradient-to-br from-purple-600 via-red-500 to-transparent custom-gradient text-center grid place-items-center'>Mint Here</Link> */}
               <Link target='_blank' href={"/License"}>
-                <Image src={"/ufaqb.png"} height={1080} width={1920} className='md:hidden  mt-0 -mb-24  md:mb-0 md:mt-0 md:w-[1920px]' alt='polydolls logo Nfts'></Image>
-                <Image src={"/ufaqa.png"} height={1080} width={1920} className='invisible md:visible sm:mt-2 md:w-[1920px]' alt='polydolls logo Nfts'></Image>
+                <Image src={"/uufaqb.png"} height={1080} width={1920} className='md:hidden  mt-0 -mb-24  md:mb-0 md:mt-0 md:w-[1920px]' alt='polydolls logo Nfts'></Image>
+                <Image src={"/uufaqaa.png"} height={1080} width={1920} className='invisible md:visible sm:mt-2 md:w-[1920px]' alt='polydolls logo Nfts'></Image>
               </Link>
 
               <Link className='mb-2 w-9/12 mm:w-6/12 md:w-[200px] m-auto' href={"https://opensea.io/collection/polydolls"} target='_blank'> <button className=' text-white font-semibold  border-black w-full py-2 md:py-3 lg:py-4 full rounded-md bg-gradient-to-br from-amber-700 via-amber-500 to-transparent custom-gradient'> View On Opensea</button></Link>
@@ -89,8 +90,8 @@ export default function Home() {
 
             <Link href={"https://twitter.com/polydolls"} className='h-10 w-10 my-5 md:my-0  border-2 rounded-full'> <div className='pt-1.5 px-1.5'><Twitter color="#ffffff" /></div></Link>
           </div>
-          <footer className='text-white text-[15px]  md:text-lg md:font-medium mb-20 text-center w-9/12 mx-auto'>
-            Created by <Link href={"https://opensea.io/ICHIMANstudios"} target='_blank' className='text-[#00E0FF]'>ICHIMANstudios</Link>. All rights reserved.</footer>
+          <footer className={`text-[#F9F9F9] text-[15px]  md:text-lg md:font-medium mb-20 text-center w-9/12 mx-auto  ${poppinsMed.className} `}>
+            Created by <Link href={"https://opensea.io/ICHIMANstudios"} target='_blank' className={`text-[#00E0FF]  ${poppinsMed.className} `}>ICHIMANstudios</Link>. All rights reserved.</footer>
         </div>
 
       </main>
