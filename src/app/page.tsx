@@ -9,6 +9,7 @@ import ImageGrid from '@/components/ImageGrid'
 import { cardList, cardList2 } from '@/components/data'
 import localFont from "next/font/local"
 
+const mergeOne = localFont({ src: "../../fonts/merge-one.ttf" })
 const poppinsMed = localFont({ src: "../../fonts/Poppins-Medium.ttf" })
 const humourFont = localFont({ src: "../../fonts/Humour-Normal.ttf" })
 const silkScreen = Silkscreen({ weight: "400", subsets: ['latin'] })
@@ -46,7 +47,7 @@ export default function Home() {
               >  <Image src={"/ulogo.png"} height={1000} width={500} className='mt-16 -mb-8 md:mt-2 md:w-[700px]' alt='polydolls logo Nfts'></Image> </motion.h1>
               </div>              {/* <h1 className={`text-white ${silkScreen.className} text-3xl md:text-[70px] lg:md:text-[86px]  textshadow`}>Polydolls LOGO</h1> */}
               {/* <h3 className='text-white text-lg md:text-2xl md:font-medium w-11/12 text-center mx-auto my-5 md:my-10'>30,000 Polygon citizens, eager for their ancestral nest. Mint now to pave their voyage home and earn commercial rights.</h3> */}
-              <Link className='w-9/12 mm:w-6/12 md:w-[200px] m-auto  ' href={"https://mint.polydolls.com"} target='_blank'><button className={`${humourFont.className}  w-full  bg-[#312040] text-white mt-12 md:ml-6  md:my-12 md:mt-6 lg:mt-[15px] md:mb-28 font-medium text-lg border-black  py-2 md:py-3 lg:py-4 full rounded-md  custom-gradient `}> MINT ME!</button></Link>
+              <Link className='w-9/12 mm:w-6/12 md:w-[200px] m-auto  ' href={"https://mint.polydolls.com"} target='_blank'><button className={`${humourFont.className}  w-full  bg-[#312040] text-white mt-12 md:ml-6  md:my-12 md:mt-16 lg:mt-[45px] md:mb-28 font-medium text-lg border-black  py-2 md:py-3 lg:py-4 full rounded-md  custom-gradient `}> <Image src={"/mintmee.png"} height={50} width={250} className='mx-auto h-[35px] w-[180px]' alt='polydolls logo Nfts'></Image></button></Link>
             </div>
 
             {/* <div className='h-72 lg:h-[500px]  w-full  bg-[url(/Banner1.png)] bg-no-repeat bg-cover bg-center'></div> */}
@@ -84,14 +85,18 @@ export default function Home() {
                 <Image src={"/uufaqaa.png"} height={1080} width={1920} className='invisible md:visible sm:mt-2 md:w-[1920px]' alt='polydolls logo Nfts'></Image>
               </Link>
 
-              <Link className='mb-2 w-9/12 mm:w-6/12 md:w-[200px] m-auto' href={"https://opensea.io/collection/polydolls"} target='_blank'> <button className=' text-white font-semibold  border-black w-full py-2 md:py-3 lg:py-4 full rounded-md bg-gradient-to-br from-amber-700 via-amber-500 to-transparent custom-gradient'> View On Opensea</button></Link>
+              <Link className='mb-2 w-9/12 mm:w-6/12 md:w-[200px] m-auto' href={"https://opensea.io/collection/polydolls"} target='_blank'> <button className={` text-white font-semibold  border-black w-full py-2 mb-10 md:py-3 lg:py-4 full rounded-md bg-gradient-to-br from-amber-700 via-amber-500 to-transparent custom-gradient text-stroke  ${mergeOne.className} `}>  <Image src={"/view.png"} height={50} width={250} className='mx-auto h-[30px] w-[150px]' alt='polydolls logo Nfts'></Image>
+              </button></Link>
 
             </div>
 
-            <Link href={"https://twitter.com/polydolls"} className='h-10 w-10 my-5 md:my-0  border-2 rounded-full'> <div className='pt-1.5 px-1.5'><Twitter color="#ffffff" /></div></Link>
+            <Link href={"https://twitter.com/polydolls"} className='h-10 w-10 my-5 md:my-0 border-2 rounded-full'> <div className='pt-1.5 px-1.5'><Twitter color="#ffffff" /></div></Link>
           </div>
-          <footer className={`text-[#F9F9F9] text-[15px]  md:text-lg md:font-medium mb-20 text-center w-9/12 mx-auto  ${poppinsMed.className} `}>
-            Created by <Link href={"https://opensea.io/ICHIMANstudios"} target='_blank' className={`text-[#00E0FF]  ${poppinsMed.className} `}>ICHIMANstudios</Link>. All rights reserved.</footer>
+          <footer className={`text-[#ffffff] text-[15px] mb-44 md:mb-0  md:text-lg md:font-medium text-center w-9/12 mx-auto  ${mergeOne.className} `}>
+            <Image src={"/mobilecb2.png"} height={1080} width={1920} className='md:hidden  mx-auto   h-[130px] w-[750px] md:mb-0 md:mt-0 md:w-[1920px]' alt='polydolls logo Nfts'></Image>
+            <Image src={"/cbb.png"} height={100} width={850} className=' bg-center  invisible md:visible -mt-48 md:w-[1920px]' alt='created by'></Image>
+
+          </footer>
         </div>
 
       </main>

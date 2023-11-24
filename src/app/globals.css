@@ -30,3 +30,8 @@ html {
     rgba(91, 40, 213, 0.9920343137254902) 76%
   );
 }
+
+.text-stroke {
+  /* Set a text-shadow with the color black to create a stroke effect */
+  text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
+}
