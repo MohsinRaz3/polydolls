@@ -47,7 +47,7 @@ export default function Home() {
               >  <Image src={"/ulogo.png"} height={1000} width={500} className='mt-16 -mb-8 md:mt-2 md:w-[700px]' alt='polydolls logo Nfts'></Image> </motion.h1>
               </div>              {/* <h1 className={`text-white ${silkScreen.className} text-3xl md:text-[70px] lg:md:text-[86px]  textshadow`}>Polydolls LOGO</h1> */}
               {/* <h3 className='text-white text-lg md:text-2xl md:font-medium w-11/12 text-center mx-auto my-5 md:my-10'>30,000 Polygon citizens, eager for their ancestral nest. Mint now to pave their voyage home and earn commercial rights.</h3> */}
-              <Link className='w-9/12 mm:w-6/12 md:w-[200px] m-auto  ' href={"https://mint.polydolls.com"} target='_blank'><button className={`${humourFont.className}  w-full  bg-[#312040] text-white mt-12 md:ml-6  md:my-12 md:mt-16 lg:mt-[45px] md:mb-28 font-medium text-lg border-black  py-2 md:py-3 lg:py-4 full rounded-md  custom-gradient `}> <Image src={"/mintmee.png"} height={50} width={250} className='mx-auto h-[23px] w-[130px] md:h-[28px] md:w-[150px]' alt='polydolls logo Nfts'></Image></button></Link>
+              <Link className='w-9/12 mm:w-6/12 md:w-[200px] m-auto  ' href={"https://mint.polydolls.com"} target='_blank'><button className={`${humourFont.className}  w-full  bg-[#312040] text-white mt-12 md:ml-6  md:my-12 md:mt-16 lg:mt-[45px] md:mb-28 font-medium text-stroke text-xs md:text-sm border-black  py-2 md:py-3 lg:py-4 full rounded-md  custom-gradient `}> MINT ME!</button></Link>
             </div>
 
             {/* <div className='h-72 lg:h-[500px]  w-full  bg-[url(/Banner1.png)] bg-no-repeat bg-cover bg-center'></div> */}
@@ -65,10 +65,20 @@ export default function Home() {
                   className={`${humourFont.className} tracking-[-0.02em] drop-shadow-sm md:leading-[2.25rem]`}
                   variants={FADE_DOWN_ANIMATIsON_VARIANTS}
                 ><div > <p>AS A POLYDOLLS HOLDER,</p> <p>YOU'RE GRANTED A BROAD, SUBLICENSABLE LICENSE TO US AND EXPLOIT YOUR </p> <p> POLYDOLLS ART FOR BOTH COMMERCIAL AND NON-COMMERCIAL PURPOSES, ACROSS ALL MEDIA.</p> </div> <br /> <p> THE POLYDOLLS LICENSE IS <Link className='text-cyan-500' target='_blank' href={"/License"}>HERE</Link> </p> </motion.h1></div> */}
-              <Link target='_blank' href={"/License"}>
-                <Image src={"/uurightsb.png"} height={1080} width={1920} className='md:hidden px-2 md:w-[1920px]' alt='polydolls logo Nfts'></Image>
-                <Image src={"/uurightsaa.png"} height={1080} width={1920} className='invisible md:visible sm:-mb-6 sm:mt-2 mt-2 md:mb-24 md:w-[1920px]' alt='polydolls logo Nfts'></Image>
-              </Link>
+
+
+              <div className={`${humourFont.className} text-center mx-auto px-3 md:px-5 w-full text-stroke text-white text-xs md:text-sm lg:px-44 lg:-mt-24  pt-8 md:my-20 lg:my-28 flex flex-col items-center mb-44`}>
+                <Image src={'/rightsbb.png'} height={1080} width={1920} alt='faqm' className='md:hidden px-2 md:w-[1920px] -mb-40'></Image>
+                <Image src={"/rightsaa.png"} height={1080} width={1920} className='invisible md:visible md:w-[1920px]' alt='faqpc'></Image>
+
+
+                <p className='visible md:invisible tracking-[-0.02em] drop-shadow-sm leading-[1.3rem] -mt-2'>AS A POLYDOLLS HOLDER, <br />YOU'RE GRANTED A BROAD, SUBLICENSEABLE LICENSE <br />TO USE AND EXPLOIT YOUR POLYDOLLS ART FOR BOTH COMMERCIAL AND NON-COMMERCIAL PURPOSES, ACROSS ALL THE MEDIA. <br />THE POLYDOLLS LICENSE IS   <Link target='_blank' href={"/License"}><span className='text-[#11B8CC] text-stroke'> HERE.</span>  </Link></p>
+                <p className='invisible md:visible tracking-[-0.02em] drop-shadow-sm leading-[1.5rem] -mt-36'>AS A POLYDOLLS HOLDER, <br /> YOU'RE GRANTED A BROAD, SUBLICENSEABLE LICENSE TO USE AND EXPLOIT YOUR <br />POLYDOLLS ART FOR BOTH COMMERCIAL AND NON-COMMERCIAL PURPOSES, ACROSS ALL THE MEDIA. <br />THE POLYDOLLS LICENSE IS   <Link target='_blank' href={"/License"}><span className='text-[#11B8CC] text-stroke'> HERE.</span>  </Link></p>
+
+              </div>
+              {/* <Image src={"/uurightsb.png"} height={1080} width={1920} className='md:hidden px-2 md:w-[1920px]' alt='polydolls logo Nfts'></Image>
+                <Image src={"/uurightsaa.png"} height={1080} width={1920} className='invisible md:visible sm:-mb-6 sm:mt-2 mt-2 md:mb-24 md:w-[1920px]' alt='polydolls logo Nfts'></Image> */}
+
             </div>
             {/* <div className='h-72 lg:h-[500px]  w-full  bg-[url(/Banner2.png)] bg-no-repeat bg-cover bg-center'> </div> */}
             <ImageGrid cardList={cardList2} />
@@ -80,24 +90,42 @@ export default function Home() {
                 variants={FADE_DOWN_ANIMATION_VARIANTS}
               >FIND FREQUENTLY ASKED QUESTIONS AND DETAILED MINTING GUIDLINES <Link className='text-cyan-500' target='_blank' href={"/"}>HERE.</Link></motion.h1> </div> */}
               {/* <Link href={"#"} className='text-white font-semibold  border-black w-9/12 md:w-[200px]  bg-red-200 h-12 rounded-md bg-gradient-to-br from-purple-600 via-red-500 to-transparent custom-gradient text-center grid place-items-center'>Mint Here</Link> */}
-              <Link target='_blank' href={"/License"}>
-                <Image src={"/uufaqb.png"} height={1080} width={1920} className='md:hidden  mt-0 -mb-24  md:mb-0 md:mt-0 md:w-[1920px]' alt='polydolls logo Nfts'></Image>
-                <Image src={"/uufaqaa.png"} height={1080} width={1920} className='invisible md:visible sm:mt-2 md:w-[1920px]' alt='polydolls logo Nfts'></Image>
-              </Link>
 
-              <Link className='mb-2 w-9/12 z-10 mm:w-6/12 md:w-[200px] m-auto' href={"https://opensea.io/collection/polydolls"} target='_blank'> <button className={` text-white font-semibold  border-black w-full py-2 mb-10 md:py-3 lg:py-4 full rounded-md bg-gradient-to-br from-amber-700 via-amber-500 to-transparent custom-gradient text-stroke  ${mergeOne.className} `}>  <Image src={"/view2.png"} height={50} onClick={() => {
-                console.log("clicked")
-              }} width={250} className='mx-auto h-[23px] w-[130px] md:h-[28px] md:w-[150px]' alt='polydolls logo Nfts'></Image>
+
+
+
+
+              <div className={`${humourFont.className} text-center mx-auto px-3 w-full text-stroke text-white text-xs md:my-20 lg:my-28 `}>
+                <Image src={"/faqbbb.png"} height={1080} width={1920} className='md:hidden -z-10 mt-8 mb-6 md:mb-0 md:mt-0 md:w-[1920px]' alt='faqm'></Image>
+                <Image src={"/faqaaa.png"} height={1080} width={1920} className='invisible md:visible sm:mt-2 md:w-[1920px]' alt='polydolls logo Nfts'></Image>
+
+                <p className='visible md:invisible leading-[1.2rem] -mt-48 mb-24'>FREQUENTLY ASKD QUESTION AND <br /> DETAILED MINTING GUIDE  <Link target='_blank' href={"/License"}><span className='text-[#11B8CC] text-stroke'> HERE.</span></Link></p>
+                <p className='invisible md:visible leading-[1.2rem] -mt-10 md:text-sm'>FREQUENTLY ASKD QUESTION AND DETAILED MINTING GUIDE  <Link target='_blank' href={"/License"}><span className='text-[#11B8CC] text-stroke'> HERE.</span></Link></p>
+
+              </div>
+
+
+
+
+
+
+
+
+
+
+              <Link className='mb-2 w-9/12 z-10 mm:w-6/12 md:w-[200px] m-auto' href={"https://opensea.io/collection/polydolls"} target='_blank'> <button className={` text-white font-medium text-xs md:text-sm   border-black w-full py-2 mb-10 md:py-3 lg:py-4 full rounded-md bg-gradient-to-br from-amber-700 via-amber-500 to-transparent custom-gradient text-stroke  ${humourFont.className} `}> <p> VIEW ON OPENSEA</p>
               </button></Link>
 
             </div>
 
             <Link href={"https://twitter.com/polydolls"} className='h-10 w-10 z-10  my-5 md:my-0 border-2 rounded-full'> <div className='pt-1.5 px-1.5'><Twitter color="#ffffff" /></div></Link>
           </div>
-          <footer className={`text-[#ffffff] text-[15px] mb-44 md:mb-0  md:text-lg md:font-medium text-center w-9/12 mx-auto  ${mergeOne.className} `}>
-            <Image src={"/mobilecb4.png"} height={1080} width={1920} className='md:hidden  mx-auto   h-[140px] w-[750px] md:mb-0 md:mt-0 md:w-[1920px]' alt='polydolls logo Nfts'></Image>
-            <Image src={"/cbb.png"} height={100} width={850} className='mx-auto  invisible md:visible -mt-36 md:w-[900px] h-[450px]' alt='created by'></Image>
-
+          <footer className={`text-[#ffffff]  mb-44 md:mb-0  md:text-lg md:font-medium text-center w-9/12 mx-auto  ${humourFont.className} `}>
+            {/* <Image src={"/mobilecb4.png"} height={1080} width={1920} className='md:hidden  mx-auto   h-[140px] w-[750px] md:mb-0 md:mt-0 md:w-[1920px]' alt='polydolls logo Nfts'></Image>
+            <Image src={"/cbb.png"} height={100} width={850} className='mx-auto  invisible md:visible -mt-36 md:w-[900px] h-[450px]' alt='created by'></Image> */}
+            <div className='text-white text-xs md:text-sm text-center mx-auto my-5 md:my-10'>
+              <p className={`${humourFont.className} text-center mx-auto px-3 text-stroke `}>
+                CREATED BY <span className='text-[#11B8CC] text-stroke'> ICHIMANstudios.</span> ALL RIGHTS RESERVED. </p> </div>
           </footer>
         </div>
 
