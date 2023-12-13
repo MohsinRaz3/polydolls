@@ -47,7 +47,7 @@ export default function Home() {
               >  <Image src={"/ulogo.png"} height={1000} width={500} className='mt-16 -mb-8 md:mt-2 md:w-[700px]' alt='polydolls logo Nfts'></Image> </motion.h1>
               </div>              {/* <h1 className={`text-white ${silkScreen.className} text-3xl md:text-[70px] lg:md:text-[86px]  textshadow`}>Polydolls LOGO</h1> */}
               {/* <h3 className='text-white text-lg md:text-2xl md:font-medium w-11/12 text-center mx-auto my-5 md:my-10'>30,000 Polygon citizens, eager for their ancestral nest. Mint now to pave their voyage home and earn commercial rights.</h3> */}
-              <Link className='w-9/12 mm:w-6/12 md:w-[200px] m-auto  ' href={"https://mint.polydolls.com"} target='_blank'><button className={`${humourFont.className}  w-full  bg-[#312040] text-white mt-12 md:ml-6  md:my-12 md:mt-16 lg:mt-[45px] md:mb-28 font-medium text-stroke text-xs md:text-sm border-black  py-2 md:py-3 lg:py-4 full rounded-md  custom-gradient `}> MINT ME!</button></Link>
+              <Link className='w-9/12 mm:w-6/12 md:w-[200px] m-auto  ' href={"https://polydolls.netlify.app"} target='_blank'><button className={`${humourFont.className}  w-full  bg-[#312040] text-white mt-12 md:ml-6  md:my-12 md:mt-16 lg:mt-[45px] md:mb-28 font-medium text-stroke text-xs md:text-sm border-black  py-2 md:py-3 lg:py-4 full rounded-md  custom-gradient `}> MINT ME!</button></Link>
             </div>
 
             {/* <div className='h-72 lg:h-[500px]  w-full  bg-[url(/Banner1.png)] bg-no-repeat bg-cover bg-center'></div> */}
