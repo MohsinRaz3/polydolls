@@ -44,7 +44,7 @@ export default function Home() {
             <p className={`${humourFont.className} text-stroke  text-xs md:text-sm visible md:invisible whitespace-pre-wrap pr-16 leading-[1.2rem] mb-4 mt-4 text-white`}>18,000 POLYGON CITIZENS,  <br /> &ensp; EAGER FOR THEIR ANCESTRAL NEST. <br />&ensp;  MINT NOW TO PAV THEIR VOYAGE HOME <br /> &ensp;  &ensp;  &ensp;  &ensp;      AND SECURE COMMERCIAL RIGHTS.</p>  
             <p className={`${humourFont.className} invisible md:visible md:text-sm whitespace-pre-wrap pr-28 leading-[1.5rem] mb-1 text-white`}>18,000 POLYGON CITIZENS,  <br /> &ensp;  EAGER FOR THEIR ANCESTRAL NEST. <br />&ensp;   MINT NOW TO PAV THEIR VOYAGE HOME <br /> &ensp;  &ensp;  &ensp;  &ensp; &ensp; &ensp;  AND SECURE COMMERCIAL RIGHTS.</p>  
 
-              <div className='w-[12/12] h-full md:pl-12 sm:mt-[-3rem] ml:mt-[-4rem] md:mt-[-2rem] lg:mt-[-0.2rem] xl:mt-[-1rem] '>   <motion.h1
+              <div className='w-[12/12] md:pl-12 sm:mt-[-3rem] ml:mt-[-4rem] md:mt-[-2rem] lg:mt-[-0.2rem] xl:mt-[-1rem] '>   <motion.h1
                 className=" tracking-[-0.02em] drop-shadow-sm md:leading-[5rem]" variants={FADE_DOWN_ANIMATION_VARIANTS}>
 
               <Image src={"/ulogoo.png"} height={1000} width={500} className='-mt-14 md:-mb-8 md:mt-6 w-[500px] md:w-[700px]' alt='polydolls logo Nfts'></Image> </motion.h1>
@@ -73,8 +73,8 @@ export default function Home() {
 
 
               <div className={`${humourFont.className} text-center mx-auto px-3 md:px-5 w-full text-stroke text-white text-xs md:text-sm lg:px-44 lg:-mt-24  pt-8 md:my-20 lg:my-28 flex flex-col items-center mb-44`}>
-                <Image src={'/rightsbb.png'} height={1080} width={1920} alt='faqm' className='md:hidden px-2 md:w-[1920px] -mb-96 '></Image>
-                <Image src={"/rightsaa.png"} height={1080} width={2920} className='invisible md:visible md:w-[1920px] h-[350px] ' alt='faqpc'></Image>
+                <Image src={'/rightsbb.png'} height={1080} width={1920} alt='faqm' className='aspect-video  md:hidden px-2 md:w-[1920px] -mb-96 '></Image>
+                <Image src={"/rightsaa.png"} height={1080} width={2920} className='invisible md:visible aspect-square md:w-[1920px] h-[350px] ' alt='faqpc'></Image>
 
 
                 <p className='visible md:invisible tracking-[-0.02em] drop-shadow-sm leading-[1.3rem] -mt-4'>AS A POLYDOLLS HOLDER, <br />YOU'RE GRANTED A BROAD, SUBLICENSEABLE LICENSE <br />TO USE AND EXPLOIT YOUR POLYDOLLS ART FOR BOTH COMMERCIAL AND NON-COMMERCIAL PURPOSES, <br />ACROSS ALL MEDIA. <br />THE POLYDOLLS LICENSE IS   <Link target='_blank' href={"/License"}><span className='text-[#11B8CC] text-stroke'> HERE.</span>  </Link></p>
