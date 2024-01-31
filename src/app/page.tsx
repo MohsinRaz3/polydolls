@@ -45,14 +45,14 @@ export default function Home() {
           <div className=' flex flex-col justify-center items-center  md:bg-[url("/bg.png")] w-full h-full bg-no-repeat bg-cover md:bg-top bg-center  bg-fixed'>
             <div className='w-full flex flex-col items-center '>
 
-              <div className='min-h-100 w-12/12 mb-4 mt-12 md:my-16 md:mr-14 flex flex-col items-center '>
-                <p className={`${humourFont.className} text-stroke  text-xs md:text-sm visible md:invisible whitespace-pre-wrap pr-16 leading-[1.2rem] mb-4 mt-4 text-white`}>18,000 POLYGON CITIZENS,  <br /> &ensp; EAGER FOR THEIR ANCESTRAL NEST. <br />&ensp;  MINT NOW TO PAV THEIR VOYAGE HOME <br /> &ensp;  &ensp;  &ensp;  &ensp;      AND SECURE COMMERCIAL RIGHTS.</p>
-                <p className={`${humourFont.className} invisible md:visible md:text-sm whitespace-pre-wrap pr-28 leading-[1.5rem] mb-1 text-white`}>18,000 POLYGON CITIZENS,  <br /> &ensp;  EAGER FOR THEIR ANCESTRAL NEST. <br />&ensp;   MINT NOW TO PAV THEIR VOYAGE HOME <br /> &ensp;  &ensp;  &ensp;  &ensp; &ensp; &ensp;  AND SECURE COMMERCIAL RIGHTS.</p>
+              <div className='min-h-100 w-12/12 my-12 md:my-16 md:mr-14 flex flex-col items-center '>
+                <p className={`${humourFont.className} text-stroke  text-xs md:text-sm visible md:invisible whitespace-pre-wrap leading-[1.2rem] mb-3   text-white`}>18,000 POLYGON CITIZENS,  <br /> &ensp; EAGER FOR THEIR ANCESTRAL NEST. <br />&ensp;  MINT NOW TO PAV THEIR VOYAGE HOME <br /> &ensp;  &ensp;  &ensp;  &ensp;      AND SECURE COMMERCIAL RIGHTS.</p>
+                <p className={`${humourFont.className} hidden md:flex md:text-sm whitespace-pre-wrap pr-28 leading-[1.5rem] mb-1 text-white`}>18,000 POLYGON CITIZENS,  <br /> &ensp;  EAGER FOR THEIR ANCESTRAL NEST. <br />&ensp;   MINT NOW TO PAV THEIR VOYAGE HOME <br /> &ensp;  &ensp;  &ensp;  &ensp; &ensp; &ensp;  AND SECURE COMMERCIAL RIGHTS.</p>
 
-                <div className='w-[12/12] md:pl-12 sm:mt-[-3rem] ml:mt-[-4rem] md:mt-[-2rem] lg:mt-[-0.2rem] xl:mt-[-1rem] '>   <motion.h1
+                <div className='w-[12/12] md:pl-12  '>   <motion.h1
                   className=" tracking-[-0.02em] drop-shadow-sm md:leading-[5rem]" variants={FADE_DOWN_ANIMATION_VARIANTS}>
 
-                  <Image src={"/ulogoo.png"} height={1000} width={500} className='-mt-14 md:-mb-8 md:mt-6 w-[500px] md:w-[700px]' alt='polydolls logo Nfts'></Image> </motion.h1>
+                  <Image src={"/ulogoo.png"} height={1000} width={500} className=' md:-mb-8 md:mt-6 w-[500px] md:w-[700px]' alt='polydolls logo Nfts'></Image> </motion.h1>
                 </div>
 
                 {/* <h1 className={`text-white ${silkScreen.className} text-3xl md:text-[70px] lg:md:text-[86px]  textshadow`}>Polydolls LOGO</h1> */}
@@ -64,7 +64,7 @@ export default function Home() {
               <ImageGrid cardList={cardList} />
 
 
-              <div className=' max-w-96 mt-32  md:mt-24 md:mb-10 flex flex-col items-center '>
+              <div className=' max-w-96 my-24 md:my-56 flex flex-col items-center '>
                 {/* <div className={`text-[#B8D1FE] ${humourFont.className} text-center md:leading-[70px] text-3xl md:text-[70px] lg:md:text-[86px]   textshadow`}>
                 <motion.h1
                   className=" tracking-[-0.02em] drop-shadow-sm md:leading-[5rem]"
@@ -77,13 +77,13 @@ export default function Home() {
                 ><div > <p>AS A POLYDOLLS HOLDER,</p> <p>YOU'RE GRANTED A BROAD, SUBLICENSABLE LICENSE TO US AND EXPLOIT YOUR </p> <p> POLYDOLLS ART FOR BOTH COMMERCIAL AND NON-COMMERCIAL PURPOSES, ACROSS ALL MEDIA.</p> </div> <br /> <p> THE POLYDOLLS LICENSE IS <Link className='text-cyan-500' target='_blank' href={"/License"}>HERE</Link> </p> </motion.h1></div> */}
 
 
-                <div className={`${humourFont.className} text-center mx-auto px-3 md:px-5 w-full text-stroke text-white text-xs md:text-sm lg:px-44 lg:-mt-24  pt-8 md:my-20 lg:my-28  mb-44`}>
-                  <Image src={'/sm-universal.png'} height={1080} width={1920} alt='faqm' className='  md:hidden w-[250px] ml:w-300px] mx-auto my-10'></Image>
-                  <Image src={"/sm-universal.png"} height={1080} width={2920} className=' hidden md:flex  w-[300px] mx-auto' alt='faqpc'></Image>
+                <div className={`${humourFont.className} text-center mx-auto px-3 md:px-5 w-full text-stroke text-white text-xs md:text-sm lg:px-44  `}>
+                  <Image src={'/sm-universal.png'} height={1080} width={1920} alt='faqm' className='  md:hidden w-[250px] ml:w-300px] mx-auto  mb-2'></Image>
+                  <Image src={"/sm-universal.png"} height={1080} width={2920} className=' hidden md:flex  w-[450px] mx-auto mb-8' alt='faqpc'></Image>
 
 
-                  <p className='visible md:invisible tracking-[-0.02em] drop-shadow-sm leading-[1.3rem] '>AS A POLYDOLLS HOLDER, <br />YOU'RE GRANTED A BROAD, SUBLICENSEABLE LICENSE <br />TO USE AND EXPLOIT YOUR POLYDOLLS ART FOR BOTH COMMERCIAL AND NON-COMMERCIAL PURPOSES, <br />ACROSS ALL MEDIA. <br />THE POLYDOLLS LICENSE IS   <Link target='_blank' href={"/License"}><span className='text-[#11B8CC] text-stroke'> HERE.</span>  </Link></p>
-                  <p className='invisible md:visible tracking-[-0.02em] drop-shadow-sm leading-[1.5rem] '>AS A POLYDOLLS HOLDER, <br /> YOU'RE GRANTED A BROAD, SUBLICENSEABLE LICENSE TO USE AND EXPLOIT YOUR <br />POLYDOLLS ART FOR BOTH COMMERCIAL AND NON-COMMERCIAL PURPOSES, <br />ACROSS ALL MEDIA. <br />THE POLYDOLLS LICENSE IS   <Link target='_blank' href={"/License"}><span className='text-[#11B8CC] text-stroke'> HERE.</span>  </Link></p>
+                  <p className='visible md:hidden tracking-[-0.02em] drop-shadow-sm leading-[1.3rem] '>AS A POLYDOLLS HOLDER, <br />YOU'RE GRANTED A BROAD, SUBLICENSEABLE LICENSE <br />TO USE AND EXPLOIT YOUR POLYDOLLS ART FOR BOTH COMMERCIAL AND NON-COMMERCIAL PURPOSES, <br />ACROSS ALL MEDIA. <br />THE POLYDOLLS LICENSE IS   <Link target='_blank' href={"/License"}><span className='text-[#11B8CC] text-stroke'> HERE.</span>  </Link></p>
+                  <p className='hidden md:flex flex-col tracking-[-0.02em] drop-shadow-sm leading-[1.5rem] '>AS A POLYDOLLS HOLDER, <br /> YOU'RE GRANTED A BROAD, SUBLICENSEABLE LICENSE TO USE AND EXPLOIT YOUR <br />POLYDOLLS ART FOR BOTH COMMERCIAL AND NON-COMMERCIAL PURPOSES, <br />ACROSS ALL MEDIA. <br />THE POLYDOLLS LICENSE IS   <Link target='_blank' href={"/License"}><span className='text-[#11B8CC] text-stroke'> HERE.</span>  </Link></p>
 
                 </div>
                 {/* <Image src={"/uurightsb.png"} height={1080} width={1920} className='md:hidden px-2 md:w-[1920px]' alt='polydolls logo Nfts'></Image>
@@ -93,7 +93,7 @@ export default function Home() {
               {/* <div className='h-72 lg:h-[500px]  w-full  bg-[url(/Banner2.png)] bg-no-repeat bg-cover bg-center'> </div> */}
               <ImageGrid cardList={cardList2} />
 
-              <div className=' w-full pt-0 md:pt-8 md:my-0 lg:my-0 flex flex-col items-center'>
+              <div className=' w-full pt-0 mt1 md:my-0 lg:my-0 flex flex-col items-center'>
                 {/* <h1 className={`text-[#B8D1FE] ${humourFont.className} text-3xl md:text-[70px] lg:md:text-[86px]   textshadow`}>FAQ</h1>
               <div className=' w-11/12 mx-auto text-lg md:text-2xl md:font-medium text-center font-semibold  text-white my-10'> <motion.h1
                 className={`${humourFont.className} tracking-[-0.02em] drop-shadow-sm md:leading-[5rem]`}
@@ -105,13 +105,13 @@ export default function Home() {
 
 
 
-                <div className={`${humourFont.className} text-center mx-auto px-3 w-full text-stroke text-white text-xs md:my-20 lg:my-28 lg:mt-48 `}>
+                <div className={`${humourFont.className} text-center my-24 md:mt-56 mx-auto px-3 w-full text-stroke text-white text-xs  `}>
 
 
-                  <Image src={"/sm-faq.png"} height={1080} width={1920} className='md:hidden w-[80px] mx-auto my-10 ' alt='faqm'></Image>
-                  <Image src={"/md-faq.png"} height={1080} width={1920} className='invisible md:visible w-[130px] lg:w-[200px] mx-auto my-10' alt='polydolls logo Nfts'></Image>
-                  <p className=' visible md:invisible '>FREQUENTLY ASKD QUESTION AND <br /> DETAILED MINTING GUIDE  <Link target='_blank' href={"/License"}><span className='text-[#11B8CC] text-stroke'> HERE.</span></Link></p>
-                  <p className=' invisible md:visible  '>FREQUENTLY ASKD QUESTION AND DETAILED MINTING GUIDE  <Link target='_blank' href={"/License"}><span className='text-[#11B8CC] text-stroke'> HERE.</span></Link></p>
+                  <Image src={"/sm-faq.png"} height={1080} width={1920} className='md:hidden w-[80px] mx-auto mb-3 ' alt='faqm'></Image>
+                  <Image src={"/md-faq.png"} height={1080} width={1920} className='hidden md:flex  w-[130px] lg:w-[200px] mx-auto my-10' alt='polydolls logo Nfts'></Image>
+                  <p className=' visible md:invisible  '>FREQUENTLY ASKD QUESTION AND <br /> DETAILED MINTING GUIDE  <Link target='_blank' href={"/License"}><span className='text-[#11B8CC] text-stroke'> HERE.</span></Link></p>
+                  <p className=' hidden md:flex mx-auto w-fit '>FREQUENTLY ASKD QUESTION AND DETAILED MINTING GUIDE  <Link target='_blank' href={"/License"}><span className='text-[#11B8CC] text-stroke'> HERE.</span></Link></p>
                 </div>
 
 
