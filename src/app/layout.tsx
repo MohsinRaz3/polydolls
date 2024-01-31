@@ -6,7 +6,7 @@ const inter = Inter({ subsets: ['latin'] })
 
 export const metadata: Metadata = {
   title: 'Polydolls',
-  description: 'Polydolls NFTs',
+  description: '18,000 POLYGON CITIZENS, EAGER FOR THEIR ANCESTRAL NEST. MINT NOW TO PAV THEIR VOYAGE HOMEAND SECURE COMMERCIAL RIGHTS.',
 }
 
 export default function RootLayout({
