@@ -109,7 +109,7 @@ export default function Home() {
 
 
                   <Image src={"/sm-faq.png"} height={1080} width={1920} className='md:hidden w-[80px] mx-auto mb-3 ' alt='faqm'></Image>
-                  <Image src={"/md-faq.png"} height={1080} width={1920} className='hidden md:flex  w-[130px] lg:w-[200px] mx-auto my-10' alt='polydolls logo Nfts'></Image>
+                  <Image src={"/md-faq.png"} height={1080} width={1920} className='hidden md:flex  w-[120px] lg:w-[120px] mx-auto my-10' alt='polydolls logo Nfts'></Image>
                   <p className=' visible md:invisible  '>FREQUENTLY ASKD QUESTION AND <br /> DETAILED MINTING GUIDE  <Link target='_blank' href={"/License"}><span className='text-[#11B8CC] text-stroke'> HERE.</span></Link></p>
                   <p className=' hidden md:flex mx-auto w-fit '>FREQUENTLY ASKD QUESTION AND DETAILED MINTING GUIDE  <Link target='_blank' href={"/License"}><span className='text-[#11B8CC] text-stroke'> HERE.</span></Link></p>
                 </div>
