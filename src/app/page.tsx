@@ -9,7 +9,7 @@ import ImageGrid from '@/components/ImageGrid'
 import { cardList, cardList2 } from '@/components/data'
 import localFont from "next/font/local"
 import Head from 'next/head'
-const mergeOne = localFont({ src: "../../fonts/merge-one.ttf" })
+const mergeOne = localFont({src: "../../fonts/merge-one.ttf" })
 const poppinsMed = localFont({ src: "../../fonts/Poppins-Medium.ttf" })
 const humourFont = localFont({ src: "../../fonts/Humour-Normal.ttf" })
 const silkScreen = Silkscreen({ weight: "400", subsets: ['latin'] })
@@ -83,8 +83,8 @@ export default function Home() {
 
 
                   <p className='visible md:hidden tracking-[-0.02em] drop-shadow-sm leading-[1.3rem] '>AS A POLYDOLLS HOLDER, <br />YOU'RE GRANTED A BROAD, SUBLICENSEABLE LICENSE <br />TO USE AND EXPLOIT YOUR POLYDOLLS ART FOR BOTH COMMERCIAL AND NON-COMMERCIAL PURPOSES, <br />ACROSS ALL MEDIA. <br />THE POLYDOLLS LICENSE IS   <Link target='_blank' href={"/License"}><span className='text-[#11B8CC] text-stroke'> HERE.</span>  </Link></p>
-                  <p className='hidden md:flex flex-col tracking-[-0.02em] drop-shadow-sm leading-[1.5rem] '>AS A POLYDOLLS HOLDER, <br /> YOU'RE GRANTED A BROAD, SUBLICENSEABLE LICENSE TO USE AND EXPLOIT YOUR <br />POLYDOLLS ART FOR BOTH COMMERCIAL AND NON-COMMERCIAL PURPOSES, <br />ACROSS ALL MEDIA. <br />THE POLYDOLLS LICENSE IS   <Link target='_blank' href={"/License"}><span className='text-[#11B8CC] text-stroke'> HERE.</span>  </Link></p>
-
+<div className='hidden md:flex'><p className=' tracking-[-0.02em] drop-shadow-sm leading-[1.5rem] '>AS A POLYDOLLS HOLDER, <br /> YOU'RE GRANTED A BROAD, SUBLICENSEABLE LICENSE TO USE AND EXPLOIT YOUR <br />POLYDOLLS ART FOR BOTH COMMERCIAL AND NON-COMMERCIAL PURPOSES, <br />ACROSS ALL MEDIA. <br />THE POLYDOLLS LICENSE IS  <Link target='_blank' href={"/License"}><span className='text-[#11B8CC] text-stroke'> HERE.</span></Link> </p>
+</div>
                 </div>
                 {/* <Image src={"/uurightsb.png"} height={1080} width={1920} className='md:hidden px-2 md:w-[1920px]' alt='polydolls logo Nfts'></Image>
                 <Image src={"/uurightsaa.png"} height={1080} width={1920} className='invisible md:visible sm:-mb-6 sm:mt-2 mt-2 md:mb-24 md:w-[1920px]' alt='polydolls logo Nfts'></Image> */}
@@ -110,8 +110,8 @@ export default function Home() {
 
                   <Image src={"/sm-faq.png"} height={1080} width={1920} className='md:hidden w-[80px] mx-auto mb-3 ' alt='faqm'></Image>
                   <Image src={"/md-faq.png"} height={1080} width={1920} className='hidden md:flex  w-[120px] lg:w-[120px] mx-auto my-10' alt='polydolls logo Nfts'></Image>
-                  <p className=' visible md:invisible  '>FREQUENTLY ASKD QUESTION AND <br /> DETAILED MINTING GUIDE  <Link target='_blank' href={"/License"}><span className='text-[#11B8CC] text-stroke'> HERE.</span></Link></p>
-                  <p className=' hidden md:flex mx-auto w-fit '>FREQUENTLY ASKD QUESTION AND DETAILED MINTING GUIDE  <Link target='_blank' href={"/License"}><span className='text-[#11B8CC] text-stroke'> HERE.</span></Link></p>
+                  <p className=' visible md:invisible  '>FREQUENTLY ASKED QUESTIONS AND <br /> DETAILED MINTING GUIDELINES <Link target='_blank' href={"/License"}><span className='text-[#11B8CC] text-stroke'> HERE.</span></Link></p>
+                  <p className=' hidden md:flex mx-auto w-fit '>FREQUENTLY ASKED QUESTIONS AND DETAILED MINTING GUIDELINES&nbsp;<Link target='_blank' href={"/License"}><span className='text-[#11B8CC] text-stroke'> HERE.</span></Link></p>
                 </div>
 
 
