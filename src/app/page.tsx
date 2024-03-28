@@ -47,7 +47,7 @@ export default function Home() {
 
               <div className='min-h-100 w-12/12 my-12 md:my-16 md:mr-14 flex flex-col items-center '>
                 <p className={`${humourFont.className} text-stroke  text-xs md:text-sm visible md:invisible whitespace-pre-wrap leading-[1.2rem] mb-3   text-white`}>18,000 POLYGON CITIZENS,  <br /> &ensp; EAGER FOR THEIR ANCESTRAL NEST. <br />&ensp;  MINT NOW TO PAV THEIR VOYAGE HOME <br /> &ensp;  &ensp;  &ensp;  &ensp;      AND SECURE COMMERCIAL RIGHTS.</p>
-                <p className={`${humourFont.className} hidden md:flex md:text-sm whitespace-pre-wrap pr-28 leading-[1.5rem] mb-1 text-white`}>18,000 POLYGON CITIZENS,  <br /> &ensp;  EAGER FOR THEIR ANCESTRAL NEST. <br />&ensp;   MINT NOW TO PAV THEIR VOYAGE HOME <br /> &ensp;  &ensp;  &ensp;  &ensp; &ensp; &ensp;  AND SECURE COMMERCIAL RIGHTS.</p>
+                <p className={`${humourFont.className} hidden md:flex md:text-sm whitespace-pre-wrap pr-28 leading-[1.5rem] mb-1 text-white`}>18,000 POLYGON CITIZENS,  <br /> &ensp;  EAGER FOR THEIR ANCESTRAL NEST. <br />&ensp;   MINT NOW TO PAVE THEIR VOYAGE HOME <br /> &ensp;  &ensp;  &ensp;  &ensp; &ensp; &ensp;  AND SECURE COMMERCIAL RIGHTS.</p>
 
                 <div className='w-[12/12] md:pl-12  '>   <motion.h1
                   className=" tracking-[-0.02em] drop-shadow-sm md:leading-[5rem]" variants={FADE_DOWN_ANIMATION_VARIANTS}>
